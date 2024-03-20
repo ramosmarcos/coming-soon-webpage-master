@@ -128,32 +128,83 @@ a {
   border-right: none !important;
   border-left: none !important;
   border-bottom: 2px solid #fff !important;
+  color: white !important;
 }
 
 .form-control::placeholder {
-  color: #cccccc !important;
+  color: #adadad !important;
 }
 
 #emailHelp {
-  color: #cccccc !important;
+  color: #adadad !important;
+}
+
+.btn {
+  margin-top: 10px;
 }
 
 .btn-color {
-  color: #fff;
-  background: #0098fdb7;
-  border: none;
-  border-radius: 50px !important;
+  display: inline-block !important;
+  outline: 0 !important;
+  text-align: center !important;
+  cursor: pointer !important;
+  padding: 17px 30px !important;
+  border: 0 !important;
+  color: #fff !important;
+  font-size: 17.5px !important;
+  border: 2px solid transparent !important;
+  border-color: rgb(0, 0, 0) !important;
+  background: #1364e7 !important;
+  font-weight: 800 !important;
+  line-height: 30px !important;
+  transition: color .3s ease-in-out !important;
+  
 }
 
 .btn-color:hover {
-  background: #b5deffd7;
-  transition: all 0.3s ease-in-out;
-  color: #000000;
+  background-color: #c6dcff !important;
+  color: #000000 !important;
 }
+
+
+.container2 {
+  min-height: 100%;
+}
+
+/* Tooltip da referência à imagem de fundo */
+/* .sobre {
+  position: fixed;
+  right: 10px; 
+  bottom: 10px; 
+}
+
+.sobre-texto {
+  color: #fff;
+  }
+
+.tooltip-text {
+  
+  position: absolute;
+  bottom: calc(100% + 5px); 
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  visibility: hidden; 
+  opacity: 0; 
+  transition: visibility 0s, opacity 0.3s linear; 
+  }
+
+.sobre:hover .tooltip-text {
+    visibility: visible; 
+    opacity: 1;
+} */
 
 @media only screen and (max-width: 1050px) { /* media query - tablet */
   body {
-  background-size:cover
+  background-size:cover;
 }
 
 .logo {
@@ -189,7 +240,7 @@ a {
   }
 
   .left-text, .revolucao, .chegando {
-    font-size: 30px;
+    font-size: 24px;
     text-align: center;
   }
 
@@ -198,8 +249,9 @@ a {
   }
 
   .right-text {
-    margin-top: -6em;
+    margin-top: -3em;
     text-align: center;
+    font-size: 24px;
     }
 
   .form-control {
