@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+  background-image: url(img/12965263_abstract_background_with_flowing_particles_design_1609.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.logo {
+  position: fixed;
+  top: 0;
+  left: 45%;
+  transform: translateX(-80%);
+  max-width: 650px;
+  margin-top: 3.5em;
+}
+
+a {
+  background: transparent;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-telegram {
+  margin-top: 20px !important;
+  margin-right: 20px;
+  font-size: 25px !important;
+}
+
+.fa-facebook {
+  color: #e6e6e6;
+}
+.fa-facebook:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+.fa-twitter {
+  color: #e6e6e6;
+}
+.fa-twitter:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+.fa-telegram {
+  color: #e6e6e6;
+}
+.fa-telegram:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+.fa-envelope {
+  margin-top: 13px;
+  margin-right: 20px;
+  font-size: 25px;
+  color: #e6e6e6;
+  padding: 10px;
+  background: #91c1ff4f;
+  border-radius: 20px;
+}
+
+.email {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  display: none;
+}
+
+.fa-envelope:hover .email {
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+}
+
+.left-text {
+  font-size: 60px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 140%;
+  margin-top: em;
+}
+.right-text {
+  text-align: end;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+  margin-left: 100px !important;
+}
+
+.revolucao {
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.chegando {
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.change {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.form-text {
+  color: #fff !important;
+}
+
+.form-control {
+  background: none !important;
+  border-radius: 0px !important;
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  border-bottom: 2px solid #fff !important;
+}
+
+.form-control::placeholder {
+  color: #cccccc !important;
+}
+
+#emailHelp {
+  color: #cccccc !important;
+}
+
+.btn-color {
+  color: #fff;
+  background: #0098fdb7;
+  border: none;
+  border-radius: 50px !important;
+}
+
+.btn-color:hover {
+  background: #b5deffd7;
+  transition: all 0.3s ease-in-out;
+  color: #000000;
+}
+
+@media only screen and (max-width: 1050px) { /* media query - tablet */
+  body {
+  background-size:cover
+}
+
+.logo {
+  max-width: 480px;
+  position: relative;
+  margin: auto;
+  margin-top: 0;
+  left: unset;
+  transform: unset;
+  margin-bottom: 3.2em;
+  margin-left: 1.2em;
+}
+
+}
+
+@media only screen and (max-width: 768px) { /* media query - aparelho móvel */
+    body {
+    background-size: 150vh;
+    background-position: top right;
+  }
+
+  .logo {
+    max-width: 350px;
+    position: relative;
+    margin: auto;
+    margin-bottom: 3.2em;
+  }
+
+  .navbar-brand {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .left-text, .revolucao, .chegando {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #baixo {
+    margin-left: -3.2em;
+  }
+
+  .right-text {
+    margin-top: -6em;
+    text-align: center;
+    }
+
+  .form-control {
+    min-width: unset;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+
+  .btn-color {
+    min-width: unset;
+    width: 100%;
+  }
+}
