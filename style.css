@@ -244,7 +244,7 @@ a {
   }
 
   .left-text, .revolucao, .chegando {
-    font-size: 24px;
+    font-size: 28px;
     text-align: center;
   }
 
@@ -272,7 +272,7 @@ a {
   .right-text {
     margin-top: -3em;
     text-align: center;
-    font-size: 24px;
+    font-size: 18px;
     }
 
   .form-control {
@@ -297,6 +297,15 @@ a {
 
 #baixo {
   margin-left: -3.2em;
-  margin-bottom: 1em;
+  margin-bottom: 10em;
 }
+
+.left-text, .revolucao, .chegando {
+  font-size: 24px;
+}
+
+.right-text {
+  font-size: 14px;
+  text-align: center ;
+  }
 }
