@@ -65,7 +65,7 @@ a {
   font-size: 25px;
   color: #e6e6e6;
   padding: 10px;
-  background: #91c1ff4f;
+  background: #4f698a4f;
   border-radius: 20px;
 }
 
@@ -141,7 +141,9 @@ a {
 }
 
 #emailHelp {
-  color: #adadad !important;
+  color: #e2e2e2 !important;
+  background-color: rgba(0, 41, 92, 0.58) !important;
+  padding: 5px;
 }
 
 .btn {
@@ -157,17 +159,17 @@ a {
   border: 0 !important;
   color: #fff !important;
   font-size: 17.5px !important;
-  border: 2px solid transparent !important;
-  border-color: rgb(0, 0, 0) !important;
-  background: #1364e7 !important;
+  border: 1px solid transparent !important;
+  border-color: #72a8ff !important;
+  background: #0a5fe7 !important;
   font-weight: 800 !important;
   line-height: 30px !important;
-  transition: color .3s ease-in-out !important;
+  transition: color .05s ease-in-out !important;
   
 }
 
 .btn-color:hover {
-  background-color: #c6dcff !important;
+  background-color: #9ac1ff !important;
   color: #000000 !important;
 }
 
@@ -207,7 +209,7 @@ a {
     opacity: 1;
 } */
 
-@media only screen and (max-width: 1050px) { /* media query - tablet */
+@media only screen and (max-width: 1050px) { 
   body {
   background-size:cover;
 }
@@ -223,7 +225,7 @@ a {
   margin-left: 1.2em;
 }}
 
-@media only screen and (max-width: 768px) { /* media query - aparelho móvel */
+@media only screen and (max-width: 768px) { 
     body {
     background-size: 150vh;
     background-position: top right;
